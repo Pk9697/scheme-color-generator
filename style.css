@@ -14,12 +14,13 @@ Layout
 ******** */
 
 #container{
+    width: 90%;
     max-width:550px;
     margin:0 auto;
     /* background-color: aquamarine; */
 }
 
-header{
+#color-form{
     display: flex;
     justify-content: space-evenly;
     padding: 2em 0;
@@ -28,7 +29,7 @@ header{
     box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
 }
 
-header input{
+#color-form-input{
     width: 10%;
     min-height: 34px;
     border: 0.5px solid #313131;
@@ -37,7 +38,7 @@ header input{
     /* color: #F55A5A; */
 }
 
-header select{
+#color-form-select{
     font-family: inherit;
     font-weight:400;
     font-size: 1rem;
@@ -50,7 +51,7 @@ header select{
     line-height: 1.5rem;
 }
 
-header button{
+#color-form-btn{
     padding: 1em 0.9em;
     font-family: inherit;
     font-weight: 500;
@@ -62,37 +63,41 @@ header button{
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 4px;
     cursor: pointer;
-}
-
-header button{
     width: 25%;
 }
 
 
+
 #main-container{
-    display: flex;
-    /* min-height: 80vh; */
+    /* display: flex; */
     min-height: 450px;
-}
-#main-container div{
-    width: 100%;
-    /* min-height: 50vh; */
-    text-align: center;
+    cursor: pointer;
 }
 
-.color-div{
-    height: 90%;
-    background-color: red;
-}
-.color-id{
-    height: 10%;
-    /* background-color: blue; */
+#color-div-container{
+    min-height: 350px;
+    /* background-color: #F55A5A; */
     display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+#color-id-container{
+    display: flex;
+    /* background-color: aqua; */
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
     font-weight: 500;
     font-size: 0.75rem;
     color: #2B283A;
     line-height: 1.5rem;
 }
+
+.color-div,
+.color-id{
+    /* height: 90%; */
+    width: 100%;
+    /* background-color: red; */
+}
+
+
 

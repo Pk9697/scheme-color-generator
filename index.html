@@ -12,59 +12,52 @@
 <body>
     <div id="container">
         <header>
-            <input type="color" value="#F55A5A">
-            <select name="" id="">
-                <option value="monochrome">Monochrome</option>
-                <option value="monochrome-dark">Monochrome-dark</option>
-                <option value="monochrome-light">Monochrome-light</option>
-                <option value="analogic">Analogic</option>
-                <option value="complement">Complement</option>
-                <option value="analogic-complement">Analogic-complement</option>
-                <option value="triad">Triad</option>
-                <option value="quad">Quad</option>
-            </select>
-            <button>Get color scheme</button>
+            <form id="color-form">
+                <input type="color" value="#F55A5A" id="color-form-input">
+                <select name="color-form-select" id="color-form-select">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                </select>
+                <button id="color-form-btn">Get color scheme</button>
+            </form>
         </header>
 
         <main id="main-container">
-            <div>
-                <div class="color-div">
 
+            <div id="color-div-container">
+                <div class="color-div" style="background-color:#C01010;">
                 </div>
-                <div class="color-id">
-                    red
+                <div class="color-div" style="background-color:#ED1515;">
+                </div>
+                <div class="color-div" style="background-color:#F24444;">
+                </div>
+                <div class="color-div" style="background-color:#F67373;">
+                </div>
+                <div class="color-div" style="background-color:#F9A2A2;">
                 </div>
             </div>
-            <div>
-                <div class="color-div">
 
+            <div id="color-id-container">
+                <div class="color-id">
+                    #C01010
                 </div>
                 <div class="color-id">
-                    blue
-                </div>
-            </div>
-            <div>
-                <div class="color-div">
-
+                    #ED1515
                 </div>
                 <div class="color-id">
-                    green
-                </div>
-            </div>
-            <div>
-                <div class="color-div">
-
+                    #F24444
                 </div>
                 <div class="color-id">
-                    yellow
-                </div>
-            </div>
-            <div>
-                <div class="color-div">
-
+                    #F67373
                 </div>
                 <div class="color-id">
-                    orange
+                    #F9A2A2
                 </div>
             </div>
         </main>
